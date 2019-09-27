@@ -10,7 +10,7 @@ public class LoquesmitcheApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LoquesmitcheApplication.class, args);
-		new BrokerJEEClient().consume();
+//		new BrokerJEEIntegrator().consume();
 	}
 
 
